@@ -35,6 +35,54 @@
         ],
         "createdAt": "2026-10-19T21:42:25.210Z",
         "reason": "Small-size cluster is hint/body/h3 of the form and steps; display steps run 20px to 86px"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "19px",
+        "createdAt": "2026-10-19T21:53:22.400Z",
+        "reason": "Shipped value DESIGN.md was derived from (documenter omitted minor steps): intentional, not drift"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "18px",
+        "createdAt": "2026-10-19T21:53:22.482Z",
+        "reason": "Shipped value DESIGN.md was derived from (documenter omitted minor steps): intentional, not drift"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "16px",
+        "createdAt": "2026-10-19T21:53:22.552Z",
+        "reason": "Shipped value DESIGN.md was derived from (documenter omitted minor steps): intentional, not drift"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "24px",
+        "createdAt": "2026-10-19T21:53:22.626Z",
+        "reason": "Shipped value DESIGN.md was derived from (documenter omitted minor steps): intentional, not drift"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#164a7c",
+        "createdAt": "2026-10-19T21:53:22.698Z",
+        "reason": "Shipped value DESIGN.md was derived from (documenter omitted minor steps): intentional, not drift: room gradient lift / static beam fallback / text clear-pool / placeholder text"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgba(255,240,200,.10)",
+        "createdAt": "2026-10-19T21:53:22.774Z",
+        "reason": "Shipped value DESIGN.md was derived from (documenter omitted minor steps): intentional, not drift: room gradient lift / static beam fallback / text clear-pool / placeholder text"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgba(13,52,92,.72)",
+        "createdAt": "2026-10-19T21:53:22.846Z",
+        "reason": "Shipped value DESIGN.md was derived from (documenter omitted minor steps): intentional, not drift: room gradient lift / static beam fallback / text clear-pool / placeholder text"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#5f7690",
+        "createdAt": "2026-10-19T21:53:22.920Z",
+        "reason": "Shipped value DESIGN.md was derived from (documenter omitted minor steps): intentional, not drift: room gradient lift / static beam fallback / text clear-pool / placeholder text"
       }
     ]
   }
