@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T21:51:36.571403+00:00",
+  "title": "Design System: ShannonSaves",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Flyer Navy",
+        "canonical": "oklch(34.7% 0.089 251)",
+        "tonalRamp": [
+          "#00072e",
+          "#00254e",
+          "#18446f",
+          "#386492",
+          "#5986b6",
+          "#7ba9db",
+          "#9eceff",
+          "#c3f3ff"
+        ]
+      },
+      "navy-deep": {
+        "role": "primary",
+        "displayName": "Night Navy",
+        "canonical": "oklch(29.0% 0.075 253)",
+        "tonalRamp": [
+          "#000929",
+          "#032548",
+          "#224468",
+          "#41648b",
+          "#6285ae",
+          "#84a8d3",
+          "#a7cdf9",
+          "#cbf2ff"
+        ]
+      },
+      "navy-ink": {
+        "role": "primary",
+        "displayName": "Ink Navy",
+        "canonical": "oklch(28.1% 0.068 252)",
+        "tonalRamp": [
+          "#000a26",
+          "#072644",
+          "#254465",
+          "#446487",
+          "#6485aa",
+          "#86a8cf",
+          "#a9cdf5",
+          "#cef2ff"
+        ]
+      },
+      "lime": {
+        "role": "secondary",
+        "displayName": "Soap Lime",
+        "canonical": "oklch(87.0% 0.175 133)",
+        "tonalRamp": [
+          "#001400",
+          "#003200",
+          "#115200",
+          "#347400",
+          "#569700",
+          "#78bb38",
+          "#9be160",
+          "#c4ff92"
+        ]
+      },
+      "lime-hi": {
+        "role": "secondary",
+        "displayName": "Bright Lime",
+        "canonical": "oklch(91.3% 0.137 131)",
+        "tonalRamp": [
+          "#001200",
+          "#062f00",
+          "#254f00",
+          "#447000",
+          "#649231",
+          "#86b656",
+          "#aadb7a",
+          "#ceff9f"
+        ]
+      },
+      "focus-blue": {
+        "role": "tertiary",
+        "displayName": "Window Blue",
+        "canonical": "oklch(57.7% 0.165 256)",
+        "tonalRamp": [
+          "#00004e",
+          "#001572",
+          "#003b96",
+          "#065ebc",
+          "#3581e2",
+          "#5aa6ff",
+          "#7ecbff",
+          "#a5f2ff"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Window Cream",
+        "canonical": "oklch(95.5% 0.031 93)",
+        "tonalRamp": [
+          "#100b00",
+          "#2a2513",
+          "#48422f",
+          "#67614d",
+          "#89826d",
+          "#aca58f",
+          "#d0c9b3",
+          "#f5eed8"
+        ]
+      },
+      "cream-soft": {
+        "role": "neutral",
+        "displayName": "Clean-Room Cream",
+        "canonical": "oklch(97.6% 0.018 93)",
+        "tonalRamp": [
+          "#0e0b04",
+          "#28251b",
+          "#454238",
+          "#656156",
+          "#868277",
+          "#a9a599",
+          "#cdc9bd",
+          "#f2eee2"
+        ]
+      },
+      "paper-white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "muted-on-cream": {
+        "role": "neutral",
+        "displayName": "Slate on Cream",
+        "canonical": "oklch(44.5% 0.055 252)",
+        "tonalRamp": [
+          "#000b21",
+          "#0f263f",
+          "#2b445f",
+          "#4a6380",
+          "#6a85a3",
+          "#8ca8c7",
+          "#b0cced",
+          "#d4f2ff"
+        ]
+      },
+      "muted-on-navy": {
+        "role": "neutral",
+        "displayName": "Haze on Navy",
+        "canonical": "oklch(85.8% 0.027 252)",
+        "tonalRamp": [
+          "#040c16",
+          "#1b2632",
+          "#384350",
+          "#566370",
+          "#778492",
+          "#99a7b6",
+          "#bdcbdb",
+          "#e2f0ff"
+        ]
+      },
+      "error-red": {
+        "role": "neutral",
+        "displayName": "Error Red",
+        "canonical": "oklch(50.1% 0.178 29)",
+        "tonalRamp": [
+          "#3a0000",
+          "#610000",
+          "#880000",
+          "#b0221b",
+          "#d84c3f",
+          "#ff7161",
+          "#ff9784",
+          "#ffc3b0"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Dust-Line",
+        "canonical": "rgba(11, 42, 73, .14)",
+        "tonalRamp": [
+          "rgba(11,42,73,.04)",
+          "rgba(11,42,73,.08)",
+          "rgba(11,42,73,.14)",
+          "rgba(11,42,73,.2)",
+          "rgba(11,42,73,.3)",
+          "rgba(11,42,73,.45)",
+          "rgba(11,42,73,.65)",
+          "rgba(11,42,73,.85)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; 900 uppercase, second phrase lime."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads; 900 uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service row names and step headings (800)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs and fields; 18px from 1024px."
+      },
+      "body-lead": {
+        "displayName": "Lead",
+        "purpose": "Hero promise line."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, field labels, legends."
+      },
+      "hint": {
+        "displayName": "Hint",
+        "purpose": "Form hints and errors."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "$hannon$aves in lime; 19px under 375px, 26px from 1024px, 24px in footer."
+      }
+    },
+    "shadows": [
+      {
+        "name": "button-settle",
+        "value": "0 10px 24px -14px rgba(10,44,79,.8)",
+        "purpose": "Under the navy submit button on cream."
+      },
+      {
+        "name": "portrait-hang",
+        "value": "0 0 0 7px #0e3b66, 0 0 0 13px #f7f0d9, 0 22px 40px -16px rgba(0,0,0,.55)",
+        "purpose": "Double ring plus drop under the portrait."
+      },
+      {
+        "name": "field-halo",
+        "value": "0 0 0 4px rgba(43,120,216,.18)",
+        "purpose": "Focus halo on fields and keyboard-focused chips."
+      },
+      {
+        "name": "focus-outline",
+        "value": "3px solid #a6ec6c (navy) / #2b78d8 (cream), offset 3px, radius 6px",
+        "purpose": "Global focus-visible ring."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": ".18s ease-out",
+        "purpose": "Buttons, service arrows, Facebook button."
+      },
+      {
+        "name": "field-transition",
+        "value": ".15s ease-out",
+        "purpose": "Fields and chips."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px) scale(.99)",
+        "purpose": "Button :active."
+      },
+      {
+        "name": "beam-fallback-fade",
+        "value": "opacity .8s ease-out",
+        "purpose": "CSS beam stand-in fades when the canvas paints."
+      },
+      {
+        "name": "DUST",
+        "value": {
+          "COUNT_PHONE": 420,
+          "COUNT_DESK": 750,
+          "NON_HERO_SHARE": 0.6,
+          "AIR_SPEED": 0.32,
+          "SWIRL": 0.0042,
+          "DRAG": 0.07,
+          "PUSH_R_PHONE": 70,
+          "PUSH_R_DESK": 110,
+          "PUSH": 0.55,
+          "WAKE_DECAY": 0.955,
+          "CATCH_R": 26,
+          "CATCH_SPEED": 2.2,
+          "REGROW": 0.0035,
+          "IDLE_RESUME": 4500,
+          "BEAM_BREATHE": 0.12,
+          "DPR_MAX": 1.5,
+          "GRID_COLS": 28
+        },
+        "purpose": "Dust motes in the sunbeam: drift, pointer-stirred fluid grid, wipe and regrow, idle breeze, cloud breathing."
+      },
+      {
+        "name": "BEAMS",
+        "value": {
+          "panes": "2x2, cross-bar gap 0.05",
+          "shaftAlpha": "0.30 -> 0.13 -> 0.05 warm (255,214,150)",
+          "floorPatchAlpha": 0.42,
+          "renderScale": 0.25,
+          "cssBlur": "1.5px",
+          "phoneBelowRoomWidth": "760px",
+          "rooms": [
+            "hero",
+            "meet",
+            "close"
+          ]
+        },
+        "purpose": "Per-room window (win) and landing (floor) quads, phone and desk; light cut out behind clear text."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "single static frame; smooth scroll off",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "374px (max-width)"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "beam-desk",
+        "value": "760px room width (canvas geometry switch)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Lime Button",
+      "kind": "button",
+      "refersTo": "button-lime",
+      "description": "Primary action, on navy rooms only.",
+      "html": "<div class=\"ds-room\"><a class=\"ds-btn ds-btn-lime\" href=\"#\">Get a free quote</a></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-room{background:linear-gradient(180deg,var(--navy),var(--navy-deep));padding:24px;color:var(--cream);font:400 17px/1.55 var(--font);}.ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;border:2px solid transparent;font:800 17px/1 var(--font);letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:background-color .18s ease-out,color .18s ease-out,border-color .18s ease-out,transform .18s ease-out;}.ds-btn:active{transform:translateY(1px) scale(.99);}.ds-btn-lime{background:var(--lime);border-color:var(--lime);color:var(--navy-ink);}.ds-btn-lime:hover{background:var(--lime-hi);border-color:var(--lime-hi);}.ds-btn-lime:focus-visible{outline:3px solid var(--lime);outline-offset:3px;}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary action on navy (Text me).",
+      "html": "<div class=\"ds-room\"><a class=\"ds-btn ds-btn-line\" href=\"#\">Text me</a></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-room{background:linear-gradient(180deg,var(--navy),var(--navy-deep));padding:24px;color:var(--cream);font:400 17px/1.55 var(--font);}.ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;border:2px solid transparent;font:800 17px/1 var(--font);letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:background-color .18s ease-out,color .18s ease-out,border-color .18s ease-out,transform .18s ease-out;}.ds-btn:active{transform:translateY(1px) scale(.99);}.ds-btn-line{background:transparent;border-color:rgba(247,240,217,.75);color:var(--cream);}.ds-btn-line:hover{background:rgba(247,240,217,.1);border-color:var(--cream);}.ds-btn-line:focus-visible{outline:3px solid var(--lime);outline-offset:3px;}"
+    },
+    {
+      "name": "Navy Button",
+      "kind": "button",
+      "refersTo": "button-navy",
+      "description": "The action on cream clean rooms (form submit).",
+      "html": "<div class=\"ds-clean\"><button class=\"ds-btn ds-btn-navy\" type=\"button\">Text my quote request</button></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-clean{background:var(--cream-soft);padding:24px;color:var(--navy-ink);font:400 17px/1.55 var(--font);}.ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;border:2px solid transparent;font:800 17px/1 var(--font);letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:background-color .18s ease-out,color .18s ease-out,border-color .18s ease-out,transform .18s ease-out;}.ds-btn:active{transform:translateY(1px) scale(.99);}.ds-btn-navy{background:var(--navy);border-color:var(--navy);color:var(--cream);box-shadow:0 10px 24px -14px rgba(10,44,79,.8);}.ds-btn-navy:hover{background:var(--navy-deep);}.ds-btn-navy:focus-visible{outline:3px solid var(--focus);outline-offset:3px;}"
+    },
+    {
+      "name": "Facebook Button",
+      "kind": "button",
+      "refersTo": "button-facebook",
+      "description": "Lime-bordered pill in the meet room; floods lime on hover.",
+      "html": "<div class=\"ds-room\"><a class=\"ds-fb\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M13.5 21v-7.6h2.6l.4-3h-3V8.5c0-.9.3-1.5 1.5-1.5h1.6V4.3c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8v3h2.4V21h3.1z\"/></svg>Find me on Facebook</a></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-room{background:linear-gradient(180deg,var(--navy),var(--navy-deep));padding:24px;color:var(--cream);font:400 17px/1.55 var(--font);}.ds-fb{display:inline-flex;align-items:center;gap:12px;min-height:56px;padding:0 24px;border-radius:999px;text-decoration:none;background:rgba(247,240,217,.08);border:2px solid var(--lime);color:var(--cream);font:800 17px/1 var(--font);transition:background-color .18s ease-out,color .18s ease-out;}.ds-fb svg{width:22px;height:22px;color:var(--lime);transition:color .18s ease-out;}.ds-fb:hover{background:var(--lime);color:var(--navy-ink);}.ds-fb:hover svg{color:var(--navy-ink);}.ds-fb:focus-visible{outline:3px solid var(--lime);outline-offset:3px;}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Ruled list row; only the circular arrow reacts to hover and focus.",
+      "html": "<div class=\"ds-clean\"><ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\"><span>Deep cleaning</span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\"><span>Organization</span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li></ul></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-clean{background:var(--cream-soft);padding:24px;color:var(--navy-ink);font:400 17px/1.55 var(--font);}.ds-rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line);}.ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;padding:14px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--navy-ink);}.ds-row span:first-child{font-weight:800;font-size:24px;letter-spacing:-.01em;}.ds-arrow{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;border:2px solid rgba(11,42,73,.22);color:var(--navy);transition:background-color .18s ease-out,color .18s ease-out,border-color .18s ease-out;}.ds-row:hover,.ds-row:focus-visible{outline:none;}.ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:var(--navy);border-color:var(--navy);color:var(--lime);}.ds-row:focus-visible .ds-arrow{outline:3px solid var(--focus);outline-offset:3px;}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "White field on cream with blue hover and focus halo.",
+      "html": "<div class=\"ds-clean\"><label class=\"ds-field\"><span>Your name</span><input class=\"ds-input\" type=\"text\"></label></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-clean{background:var(--cream-soft);padding:24px;color:var(--navy-ink);font:400 17px/1.55 var(--font);}.ds-field{display:grid;gap:8px;font-weight:800;}.ds-input{width:100%;box-sizing:border-box;min-height:54px;padding:14px 16px;border-radius:14px;border:2px solid rgba(11,42,73,.2);background:#fff;color:var(--navy-ink);caret-color:var(--focus);font:400 17px/1.4 var(--font);transition:border-color .15s ease-out,box-shadow .15s ease-out;}.ds-input:hover{border-color:var(--focus);}.ds-input:focus{outline:none;border-color:var(--focus);box-shadow:0 0 0 4px rgba(43,120,216,.18);}"
+    },
+    {
+      "name": "Service Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Checkbox pill; selected fills navy with a lime check.",
+      "html": "<div class=\"ds-clean\"><div class=\"ds-chips\"><label class=\"ds-chip\"><input type=\"checkbox\" checked><span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>Deep cleaning</span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>Organization</span></label></div></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-clean{background:var(--cream-soft);padding:24px;color:var(--navy-ink);font:400 17px/1.55 var(--font);}.ds-chips{display:flex;flex-wrap:wrap;gap:10px;}.ds-chip{position:relative;}.ds-chip input{position:absolute;opacity:0;width:1px;height:1px;}.ds-chip span{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 18px;border-radius:999px;border:2px solid rgba(11,42,73,.22);background:#fff;font-weight:700;cursor:pointer;transition:background-color .15s ease-out,color .15s ease-out,border-color .15s ease-out;}.ds-chip svg{width:16px;height:16px;display:none;}.ds-chip:hover span{border-color:var(--focus);}.ds-chip input:focus-visible+span{border-color:var(--focus);box-shadow:0 0 0 4px rgba(43,120,216,.18);}.ds-chip input:checked+span{background:var(--navy);border-color:var(--navy);color:var(--cream);}.ds-chip input:checked+span svg{display:block;color:var(--lime);}"
+    },
+    {
+      "name": "Portrait",
+      "kind": "custom",
+      "refersTo": "portrait",
+      "description": "Circular photo with the flyer's double ring (navy then cream).",
+      "html": "<div class=\"ds-room\"><div class=\"ds-portrait\"></div></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-room{background:linear-gradient(180deg,var(--navy),var(--navy-deep));padding:24px;color:var(--cream);font:400 17px/1.55 var(--font);}.ds-room{padding:40px;}.ds-portrait{width:176px;height:176px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#c4d2e2 0 22%,transparent 23%),radial-gradient(ellipse at 50% 95%,#c4d2e2 0 40%,transparent 41%),var(--navy);box-shadow:0 0 0 7px var(--navy),0 0 0 13px var(--cream),0 22px 40px -16px rgba(0,0,0,.55);}"
+    },
+    {
+      "name": "Step",
+      "kind": "custom",
+      "refersTo": "step-number",
+      "description": "Navy numbered circle with lime numeral beside a step.",
+      "html": "<div class=\"ds-clean\"><div class=\"ds-step\"><span class=\"ds-num\">1</span><div><h3>Tell me about your home.</h3><p>No pressure. A text or the form below is plenty.</p></div></div></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-clean{background:var(--cream-soft);padding:24px;color:var(--navy-ink);font:400 17px/1.55 var(--font);}.ds-step{display:grid;grid-template-columns:46px 1fr;gap:16px;align-items:start;}.ds-num{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--lime);font-weight:900;font-size:19px;}.ds-step h3{margin:0;font-size:20px;font-weight:800;line-height:1.25;padding-top:9px;}.ds-step p{margin:4px 0 0;color:var(--muted-on-cream);}"
+    },
+    {
+      "name": "Sunbeam Room",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Static stand-in for the navy room and its beam (the live beam and dust are canvas, driven by BEAMS and DUST).",
+      "html": "<div class=\"ds-lit\"><h2 class=\"ds-display\">Peace of mind, <span>time &amp; money.</span></h2></div>",
+      "css": ":host{--navy:#0e3b66;--navy-deep:#0a2c4f;--navy-ink:#0b2a49;--cream:#f7f0d9;--cream-soft:#fbf7ea;--lime:#a6ec6c;--lime-hi:#c2f593;--focus:#2b78d8;--line:rgba(11,42,73,.14);--muted-on-cream:#3d5672;--muted-on-navy:#c4d2e2;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}.ds-lit{position:relative;overflow:hidden;padding:40px 24px 120px;color:var(--cream);background:linear-gradient(212deg,rgba(255,240,200,0) 30%,rgba(255,240,200,.10) 48%,rgba(255,240,200,0) 70%),radial-gradient(120% 80% at 85% -10%,#164a7c 0%,rgba(22,74,124,0) 60%),linear-gradient(180deg,var(--navy) 0%,var(--navy-deep) 100%);}.ds-display{margin:0;font:900 44px/.98 var(--font);text-transform:uppercase;letter-spacing:-.02em;}.ds-display span{color:var(--lime);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Afternoon Sun in a Clean Room",
+    "overview": "The page is a quiet navy room with low afternoon sun coming through a four-pane window, the moment a house feels clean. Everything comes from the owner's own flyer: its navy ground is the room, its cream ring is the window light, its lime lettering is the type and the call to action, and its pale dots became dust drifting in the sunbeam. Visitors can wave a finger or mouse through the light to wipe the dust out of it, and it slowly drifts back in. That is the reason bi-weekly upkeep exists, told without a word of copy.\n\nThe system alternates two kinds of room. Navy \"rooms\" carry the sunbeam and its dust. Cream \"clean rooms\" hold the practical content (services, steps, the quote form) and have no dust at all. Density is low and phone-first: one column, big tap targets, heavy uppercase headlines, and plain sentence-case body in the owner's first-person voice. Depth comes from light falling across the room, not from stacked cards.\n\nType is the platform's own system sans throughout. This is a deliberate house rule, not a gap: the page opens inside Facebook's in-app browser on a phone and has to paint instantly with zero font requests.",
+    "keyCharacteristics": [
+      "Two materials only: navy rooms with light, cream clean rooms without dust.",
+      "Lime is the voice of the brand and appears only on navy ground.",
+      "900-weight uppercase display set tight, against relaxed 17px sentence-case body.",
+      "Pills for every action, circles for every badge, 14px corners for fields.",
+      "One signature motion: a canvas sunbeam with dust the pointer stirs and wipes."
+    ],
+    "rules": [
+      {
+        "name": "The Lime-on-Navy Rule",
+        "body": "Lime only ever sits on navy. Inside cream sections it appears only within a navy shape (step number, hovered arrow, selected-chip checkmark), never as text, border or fill directly on cream.",
+        "section": "colors"
+      },
+      {
+        "name": "The Blue-Is-for-Cream Rule",
+        "body": "Window Blue marks focus and hover on cream fields and chips. On navy, the focus outline is lime.",
+        "section": "colors"
+      },
+      {
+        "name": "The System Stack Rule",
+        "body": "Every text role uses the system font stack. No web fonts get loaded; the hierarchy comes from weight (400, 700, 800, 900), case and size. The wordmark is the one place a drawn form may replace it: an SVG traced from the flyer's own slab-serif lettering.",
+        "section": "typography"
+      },
+      {
+        "name": "The Shout-Then-Talk Rule",
+        "body": "Only display and headline are uppercase. Everything else is sentence case in the owner's first-person voice.",
+        "section": "typography"
+      },
+      {
+        "name": "The Light-Not-Lift Rule",
+        "body": "Depth comes from the sunbeam and the navy gradient. Cards don't float, and no new shadow gets added without a physical reason (hanging the portrait, settling the action).",
+        "section": "elevation"
+      },
+      {
+        "name": "The Clean-Room Rule",
+        "body": "Dust lives only in navy rooms. Cream sections are the cleaned rooms and stay free of particles, canvases and beams.",
+        "section": "components"
+      },
+      {
+        "name": "The Arrow-Only Rule",
+        "body": "In a service row, only the arrow reacts to hover and focus. The row stays still.",
+        "section": "components"
+      },
+      {
+        "name": "The Tunables Rule",
+        "body": "Beam geometry and dust behavior change only through `BEAMS` and `DUST`. A new navy room gets its own `BEAMS` entry with phone and desk geometry.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** alternate navy rooms (beam and dust) with cream clean rooms, and put new lit content in a navy room with its own `BEAMS` entry.",
+      "**Do** keep lime on navy, and use Window Blue (#2b78d8) for focus and hover on cream.",
+      "**Do** set headlines in 900 uppercase at 0.98 line-height and -0.02em, with an optional lime phrase on navy.",
+      "**Do** make every action a 56px pill and every target at least 44px.",
+      "**Do** cut the beam out behind text and soften the dust around controls so copy always reads on a calm ground.",
+      "**Do** keep the system font stack for every role.",
+      "**Do** honour reduced motion with a single static frame, and pause rooms that are off screen."
+    ],
+    "donts": [
+      "**Don't** put dust, beams or canvases in cream sections.",
+      "**Don't** use lime as text, border or fill directly on cream.",
+      "**Don't** load web fonts for any text role. The flyer's slab-serif lettering may return only as an SVG wordmark traced from her flyer, never as a font.",
+      "**Don't** add background, outline or shadow changes to a whole service row on hover; only the arrow changes.",
+      "**Don't** float content on shadowed cards; the notice card is the only card, and it is flat.",
+      "**Don't** paint the sunbeam's warm tones into CSS surfaces; sunlight belongs to the canvas."
+    ]
+  }
+}
