@@ -10,7 +10,7 @@
 <meta property="og:title" content="ShannonSaves · Home cleaning">
 <meta property="og:description" content="Reliable deep cleaning, bi-weekly home maintenance and organization. Reach out today for a free quote.">
 <meta property="og:url" content="https://10elizabethbell.github.io/shannonSaves/">
-<meta property="og:image" content="https://10elizabethbell.github.io/shannonSaves/og.png">
+<meta property="og:image" content="https://10elizabethbell.github.io/shannonSaves/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -693,6 +693,7 @@ var BEAMS = {
   };
 
   var rooms = Array.prototype.map.call(document.querySelectorAll('[data-room]'), function (el) { return new Room(el); });
+  window.__rooms = rooms; // for headless checks
   function sizeAll() { rooms.forEach(function (r) { r.resize(); }); }
   sizeAll();
   window.addEventListener('resize', function () { clearTimeout(sizeAll.t); sizeAll.t = setTimeout(sizeAll, 150); });
