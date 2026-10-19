@@ -1,0 +1,41 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "createdAt": "2026-10-19T21:42:24.987Z",
+        "reason": "Ellie's pitch-site house style requires the system font stack (ellie-taste.md §2); Roboto is only the Android fallback"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T21:42:25.060Z",
+        "reason": "Cream comes from the client's flyer ring (#f7f0d9 sampled); brand wins on color per ellie-taste.md"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T21:42:25.137Z",
+        "reason": "False positives: hero bottom is the empty touch zone of the canvas; service rows have 14px vertical padding inside the bordered list"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T21:42:25.210Z",
+        "reason": "Small-size cluster is hint/body/h3 of the form and steps; display steps run 20px to 86px"
+      }
+    ]
+  }
+}
